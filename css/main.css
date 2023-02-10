@@ -68,7 +68,7 @@ address {
 .main {
   flex-grow: 1;
   width: calc(100% - 300px);
-  transition: all 2500ms ease-out;
+  transition: all 250ms ease-out;
 }
 
 .sidebar {
@@ -76,7 +76,7 @@ address {
   border-left: 1px solid #ccc;
   box-shadow: -10px 0px 15px -10px rgba(51, 51, 51, 0.5);
   opacity: 1;
-  transition: all 2500ms ease-out;
+  transition: all 250ms ease-out;
 }
 @media (max-width: 700px) {
   .sidebar {
