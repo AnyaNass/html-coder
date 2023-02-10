@@ -2,8 +2,4 @@
 	flex-grow: 1;
 	width: calc(100% - 300px);
 	transition: all $transition;
-
-	@media (max-width: 700px) {
-		width: 100%;
-	}
 }
