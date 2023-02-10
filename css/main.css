@@ -68,7 +68,7 @@ address {
 .main {
   flex-grow: 1;
   width: calc(100% - 300px);
-  transition: all 250ms ease-out;
+  transition: all 2500ms ease-out;
 }
 
 .sidebar {
@@ -76,7 +76,8 @@ address {
   border-left: 1px solid #ccc;
   box-shadow: -10px 0px 15px -10px rgba(51, 51, 51, 0.5);
   opacity: 1;
-  transition: all 250ms ease-out;
+  transition: all 2500ms ease-out;
+  background-color: violet;
 }
 @media (max-width: 700px) {
   .sidebar {
@@ -84,11 +85,6 @@ address {
     opacity: 0;
     border: none;
     white-space: nowrap;
-    margin: -1px;
-    -webkit-clip-path: inset(100%);
-            clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
   }
 }
 
